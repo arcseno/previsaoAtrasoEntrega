@@ -3,7 +3,9 @@
 Como rodar o projeto?
 
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
 
 Em sequência, isso vai criar o ambiente virtual e instalar os requisitos necessários pra rodar. Já configurei também o .gitignore pra não subir o venv junto ao repositório (o arquivo é bem pesado).
